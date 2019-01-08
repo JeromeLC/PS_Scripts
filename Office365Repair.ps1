@@ -1,4 +1,5 @@
 #You may need to tweak some of the commands in this function to work in your environment (file paths, office version/installation locations, etc)
+
 function Get-SomeInput {
     $input = read-host "
 
@@ -244,5 +245,4 @@ function Get-SomeInput {
         }
     }
 }
-
 Get-SomeInput
